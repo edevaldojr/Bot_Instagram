@@ -29,7 +29,7 @@ class InstagramBot:
             campo_senha.send_keys(Keys.RETURN)
             time.sleep(5)
             driver.find_element_by_xpath("//button[contains(text(),'Agora')]").click()
-            self.comente_nas_fotos_com_hastag('sorteiopix')
+            self.comente_nas_fotos_com_hastag('hashtag_Here')
 
         
     @staticmethod
